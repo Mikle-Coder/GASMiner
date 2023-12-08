@@ -14,11 +14,11 @@ This project utilizes Google Apps Script to manage communication between MoneroO
 
 ## Getting Started with Mining
 Install the required libraries using the provided requirements.txt file:
-```bash
+```
 pip install -r requirements.txt
 ```
 Run the miner.py script to begin mining:
-```bash
+```
 python miner.py
 ```
 
