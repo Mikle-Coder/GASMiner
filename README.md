@@ -34,6 +34,4 @@ python miner.py
    - Access each sheet with 'Thread' in its name and click on `RunThread`.
    - This will execute a script that creates 20 time-based triggers (every minute) to initiate the computational script.
 
-**Note:** This setup will increase the overall computational capacity by 200 solutions per minute.
-
-Feel free to reach out for any questions or troubleshooting!
+This setup will increase the overall computational capacity by 200 solutions per minute.
