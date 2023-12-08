@@ -11,23 +11,30 @@ This project utilizes Google Apps Script to manage communication between MoneroO
 - **Python Code**: Facilitates the exchange of messages between the pool and Google Sheets.
 - **Google Sheet**: Serves as a temporary storage for tasks and results. Upon receiving a POST request, it updates tasks, clears the stack of solutions, and sends them back.
 
-## Setup Instructions
+
+## Getting Started with Mining
+Install the required libraries using the provided requirements.txt file:
+```bash
+pip install -r requirements.txt
+```
+Run the miner.py script to begin mining:
+```bash
+python miner.py
+```
+
+## Adding Computational Power
 
 1. **Google Account Setup**:
    - Open the [Google Sheet](https://docs.google.com/spreadsheets/d/1lk87CkAqxpGPVCNnv_MaAZDYEFwkAd-1r60-d1raqU8) on your Google account.
    - Click on `SetupThreads` to trigger a script that copies necessary sheets to your Google Drive for computations.
    - This action will create a folder named 'Threads' on your Google Drive, containing 10 sheets titled 'Thread...' and one sheet named 'Task'.
 
-2. **Adding Computational Power** (Optional for Increased Capacity):
+2. **Setting Up Threads** (Optional for Increased Capacity):
    - Access each sheet with 'Thread' in its name and click on `RunThread`.
    - This will execute a script that creates 20 time-based triggers (every minute) to initiate the computational script.
    - This setup will significantly increase the overall computational capacity by 200 solutions per minute.
 
 **Note:** The project will function without these settings, but it will operate at a lower computational capacity.
-
-3. **Start Mining**:
-   - Install all required libraries from `requirements.txt`.
-   - Run `miner.py` to commence mining operations.
 
 ## Additional Notes
 
