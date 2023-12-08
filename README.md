@@ -35,3 +35,17 @@ python miner.py
    - This will execute a script that creates 20 time-based triggers (every minute) to initiate the computational script.
 
 This setup will increase the overall computational capacity by 200 solutions per minute.
+
+### Note
+
+**Increasing Computational Power**
+
+Currently, the primary computational algorithm operates at a limited speed, restricting the overall system performance. To achieve higher efficiency in the project as a mining farm, two options are suggested:
+
+1. **Increasing the Number of Connected Accounts**:
+   Adding additional Google accounts to integrate with the computational system will boost the overall computational power.
+
+2. **Algorithm Optimization**:
+   The mining.gs file, containing the script in Apps Script, represents the computational algorithm currently operating at a limited speed. To enhance overall performance, it's essential to optimize this algorithm to increase task execution speed. Optimizing the algorithm will significantly improve computational efficiency by up to 120 times.
+
+Any improvements made to the mining.gs file to accelerate computations will significantly contribute to enhancing the overall efficiency of the mining process.
